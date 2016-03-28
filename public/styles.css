@@ -1,3 +1,157 @@
-h1 {
-  font-size: 150px;
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #555;
+  margin: 0;
+  padding: 0;
+}
+
+#page {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+header {
+  height: 500px;
+  background: #000 url(https://cldup.com/vQnlduJmL1.jpg) no-repeat center bottom;
+  position: relative;
+  background-size: cover;
+}
+
+header a.logo {
+  z-index: 1;
+  position: absolute;
+  display: block;
+  width: 160px;
+  height: 54px;
+  background: url(https://cldup.com/AH-TYy83tg.png) no-repeat 0 0;
+  background-size: contain;
+  top: 10px; left: 20px;
+  font-size: 1.7em;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+header a.logo span  {display: left;}
+
+header div.hero {
+  position: absolute;
+  width: 42%;
+  top: 130px;
+  left: 55%;
+}
+
+header div.hero h1 {
+  line-height: 1em;
+  margin: 54% 0 10px 0;
+  color: #fff;
+  text-align: right;
+}
+
+header a.btn {
+  font-size: 40px;
+  color: #fff;
+}
+
+/* navigation */
+nav {
+  background-color: rgba(0,0,0,.65);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 0px 0 0 0;
+  width: 100%;
+}
+
+nav::after {
+  content:'';
+  display: block;
+  clear: both;
+}
+
+
+nav ul {
+  list-style: none;
+  margin-left: 0px;
+  padding: 0px;
+  float: right;
+}
+
+nav ul li:hover {
+  background-color: #2b0306;
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+nav ul li a {
+  display: inline-block;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  width: 125px;
+  position: relative;
+}
+
+nav ul li a:visited {
+  color: #fff
+}
+
+nav ul li a:hover {
+  background-color: #000;
+}
+
+nav ul ul {
+  position: absolute;
+  top: 100%;
+  background-color: rgba(0,0,0,.65);
+  display: none;
+}
+
+nav ul ul li {
+  position: relative;
+}
+
+nav ul ul ul {
+  left: 100%; top: 0px;
+}
+
+
+
+/* top level */
+nav > ul {
+  padding-left: 100px;
+}
+
+nav > ul > li {
+  float: left;
+}
+
+nav > ul > li > a {
+  width: auto;
+  padding: 10px 20px 15px 20px;
+}
+
+nav a[aria-haspopup="true"]::after {
+  content: '';
+  display: block;
+  width: 0px; height 0px;
+  position: absolute;
+  top: 16px;
+  right: 15px;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid #fff;
+}
+
+nav > ul >li > a[aria-haspopup="true"]::after {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: solid #fff;
+  left: 20px; right: auto;
+  bottom: 6px; top: auto;
 }
