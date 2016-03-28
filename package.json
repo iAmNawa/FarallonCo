@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "express":"",
+    "compression":"",
+    "body-parser":"",
+    "ws":""
+  }
+}
