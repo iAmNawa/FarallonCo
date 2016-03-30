@@ -168,3 +168,26 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+/* all new code written in css will be here */
+
+.photo1 {
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #808080;
+}
+.photo2 {
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #808080;
+}
+
+
+.photo3 {
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #808080;
+}
