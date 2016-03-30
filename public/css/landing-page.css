@@ -176,12 +176,14 @@ p.copyright {
   border-style: solid;
   border-width: 1px;
   border-color: #808080;
+  box-shadow: 4px 4px 10px #888888;
 }
 .photo2 {
   border-radius: 10px;
   border-style: solid;
   border-width: 1px;
   border-color: #808080;
+  box-shadow: -4px 4px 10px #888888;
 }
 
 
@@ -190,4 +192,5 @@ p.copyright {
   border-style: solid;
   border-width: 1px;
   border-color: #808080;
+  box-shadow: 4px 4px 10px #888888;
 }
