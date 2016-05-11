@@ -224,3 +224,7 @@ p.copyright {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+
+#centre {
+  text-align: center;
+}
